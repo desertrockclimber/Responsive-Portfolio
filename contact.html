@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type='text/css' href='css/style.css'>
+	<title>Contact Me</title>
+</head>
+
+<body>
+	<header id='masthead'>
+		<div class='container'>
+			<a href='index.html' id='logo'>Chris Berry</a>
+			<nav>
+				<a href='index.html' id='aboutme'>About Me</a>
+				<a href='portfolio.html' id='myportfolio'>Portfolio</a>
+				<a href='contact.html' id='contactme'> Contact</a>
+			</nav>
+		</div>		
+	</header>
+	<div id='main-container' class='container'>
+		<section class='main-container'>
+			<h1>Contact</h1>
+
+	        	<form action="/gotoserver.php" id='contactform'>
+	        		<ul>
+						<li>
+	        			<label for="fullname">Name</label>
+	    				<input type="text" id="name" name="name" placeholder="John Smith" required='required'>
+						</li>
+						<li>
+						<label for="email">Email</label>
+	    				<input type="text" id="email" name="email" placeholder="example@gmail.com" required='required'>
+						</li>
+						<li>
+						<label for="subject">Subject</label>
+	    				<textarea id="subject" name="subject" required='required'></textarea>
+						</li>
+					</ul>
+		    		<input type="submit" value="Submit" style="height: 30px">
+				</form>
+		
+		</section>
+		
+		<section class='sidebar'>
+				<div id='connect'>
+				<h2>Connect with me</h2>	
+					<img src='images/github-logo.PNG' class='social-box' alt='GitHub'>
+					<img src='images/linkedin.JPG' class='social-box' alt='LinkedIn'>
+					<img src='images/stack-overflow-logo.JPG' class='social-box' alt='Stack Overflow'>
+
+				</div>
+		</section>
+	</div>
+
+	<footer>
+		<div class='container'>
+			&copy; Copyright 2017 Chris Berry
+		</div>
+	</footer>	
+</body>
+</html>
